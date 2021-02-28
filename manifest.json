@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Remove Nimo shop",
+  "version": "0.1",
+  "description": "Chrome plugin to remove nimo shop and ranking div",
+
+
+  
+   "content_scripts": [
+        {  
+          "matches": ["https://www.nimo.tv/*"],
+          "all_frames": true,
+          "js": ["content.js"]
+           
+        }
+      ]
+ }
+   
+    
+ 
+
